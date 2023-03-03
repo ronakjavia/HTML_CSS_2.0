@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    font-size: 21px;
+    margin: 50px 100px;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Orbitron;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    width: 200%;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+li:nth-child(1)::after {
+    content: "";
+    display: block;
+    width: 54px;
+    margin-left: 18px;
+    border-bottom: 2px solid #000000;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    margin-left: 28%;
+}
+
+svg {
+    margin: 5px 5px 0px 0px;
+    width: 25px;
+}
+
+.nav-button {
+    padding: 5px 40px 2px;
+    border-radius: 10px;
+    font-size: 19px;
+    opacity: 70%;
+    border: 3px solid black;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-container>div>img {
+    order: 1;
+    width: 450px;
+    margin: 70px 0px 20px;
+    position: absolute;
+}
+
+.square {
+    order: 2;
+    margin: 280px 0px 0px 110px;
+}
+
+.globe {
+    order: 3;
+    margin: 30px 100px;
+}
+
+.star {
+    order: 4;
+    margin-top: 80px;
+    margin-left: 520px;
+}
+
+.hero-container-right {
+    font-family: Orbitron;
+    order: 5;
+    margin-top: 200px;
+    margin-left: -800px;
+}
+
+.hero-heading {
+    width: 900px;
+    font-size: 60px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    transition: background-color 0.5s;
+}
+.hero-heading:hover{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.hero-description {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 700px;
+    margin: 20px 0px 80px 70px;
+}
+
+.hero-container-right>div {
+    text-align: center;
+}
+
+.hero-container-right>div>button {
+    margin: 0px 10px;
+    border-radius: 8px;
+    width: 200px;
+    font-family: Orbitron;
+    font-weight: 600;
+}
+
+.button-email {
+    padding: 8px 39px;
+}
+
+.button-join {
+    padding: 8px;
+    background-color: #111;
+    color: #fff;
+}
+
+.contact-heading {
+    margin: 120px 0px 10px 0px;
+    font-weight: 800;
+    opacity: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icons>span {
+    margin: 0px 9px;
+}
