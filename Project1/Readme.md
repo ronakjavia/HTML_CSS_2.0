@@ -1,1 +1,1 @@
-##### [PROJECT 2](https://brilliant-paprenjak-69081c.netlify.app/)
+##### [PROJECT 1](https://brilliant-paprenjak-69081c.netlify.app/)
