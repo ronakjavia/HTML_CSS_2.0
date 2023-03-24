@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    margin: 30px 65px;
+    font-family: monospace;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 10px;
+}
+.nav-items{
+    display: flex;
+    width: 30%;
+    margin-left: 200px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.active-item{
+    color: orangered;
+}
+nav>img:{
+    color: rgb(0, 254, 89);
+}
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+.left-section{
+    flex: 2;
+    margin: 60px 40px 30px 0px;
+}
+h3{
+    font-size: 30px;
+}
+h3>img{
+    margin-bottom: -10px;
+}
+h1{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: cursive;
+}
+.sub-headlines{
+    font-size: 35px;
+    margin: 50px 0px;
+}
+h5{
+    margin: 20px 0px;
+}
+h5>img{
+    background-color: orangered;
+    border-radius: 15px;
+    padding: 6px;
+    width: 10px;
+    margin-left: 60px;
+}
+p{
+    opacity: .6;
+    width: 84%;
+    margin: 30px 0px;
+}
+.action-btn{
+    background-color: orangered;
+    margin-right: 20px;
+    padding: 17px 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.right-section{
+    flex: 1.;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.headphone-div>img:nth-of-type(1){
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -70px;
+}
+.discount-content>h4, .discount-content>h1{
+    font-family: monospace;
+}
+.discount-content>h4{
+    position: absolute;
+    margin-top: 390px;
+    margin-left: -19px;
+    font-size: 19px;
+    color: #fff;
+}
+.discount-content>h1{
+    position: absolute;
+    margin-top: 405px;
+    margin-left: -42px;
+    color: #fff;
+}
+.dots{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dot{
+    margin: 10px 10px;
+}
+.yellow-dot{
+    width: 1%;
+    background-color: yellow;
+    padding: 16px 13px;
+    border-radius: 21px;
+}
+.tomato-dot{
+    width: 1%;
+    background-color: tomato;
+    padding: 16px 13px;
+    border-radius: 21px;
+}
+.black-dot{
+    width: 1%;
+    background-color: rgb(0, 0, 0);
+    padding: 16px 13px;
+    border-radius: 21px;
+}
+.action-btn{
+    margin: 30px auto;
+    width: 30%;
+}
